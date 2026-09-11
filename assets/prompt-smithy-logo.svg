@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">Prompt Smithy logo</title>
+  <desc id="description">A red smithy diamond with a cream center on a warm grid background.</desc>
+  <rect width="512" height="512" fill="#f4f1e8"/>
+  <g stroke="#181917" stroke-opacity=".08" stroke-width="2">
+    <path d="M0 64h512M0 128h512M0 192h512M0 256h512M0 320h512M0 384h512M0 448h512"/>
+    <path d="M64 0v512M128 0v512M192 0v512M256 0v512M320 0v512M384 0v512M448 0v512"/>
+  </g>
+  <rect x="127" y="127" width="258" height="258" rx="10" fill="#e84a2a" stroke="#181917" stroke-width="18" transform="rotate(45 256 256)"/>
+  <rect x="195" y="195" width="122" height="122" rx="6" fill="#f4f1e8" stroke="#181917" stroke-width="18" transform="rotate(45 256 256)"/>
+</svg>

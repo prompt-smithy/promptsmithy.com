@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prompt Smithy distributes lightweight, open-source utilities for Windows, macOS, and Linux.">
+    <meta name="theme-color" content="#f4f1e8">
+    <title>Prompt Smithy | Open-source utility downloads</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#main-content" aria-label="Prompt Smithy home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>
+          <strong id="brand-name"></strong>
+        </span>
+      </a>
+      <nav id="header-links" aria-label="Primary navigation"></nav>
+    </header>
+
+    <main id="main-content">
+      <section class="intro" aria-label="About Prompt Smithy">
+        <p id="site-subtitle" class="subtitle"></p>
+        <div class="intro-search">
+          <label class="search-field">
+            <span class="visually-hidden">Search tools</span>
+            <span class="search-icon" aria-hidden="true"></span>
+            <input id="tool-search" type="search" placeholder="Search tools" autocomplete="off">
+          </label>
+          <p id="catalog-count" class="catalog-count" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="catalog" aria-label="Tool catalog">
+        <div id="tools-directory" class="tools-directory"></div>
+        <p id="no-results" class="no-results" hidden>No tools match your search.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p id="footer-copy"></p>
+      <a id="footer-link" href="#"></a>
+    </footer>
+  </body>
+</html>
