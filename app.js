@@ -25,8 +25,7 @@ const directoryData = {
       id: "Amber",
       name: "Amber",
       version: "v1",
-      description: "Monitor brightness and color temperature managemer.",
-    //   repoUrl: "https://github.com/prompt-smithy/amber",
+      description: "A lightweight Windows tray app for controlling display brightness and color temperature, with multi-monitor support and automatic day/night scheduling.",
       platforms: [
         {
           platformName: "Windows",
