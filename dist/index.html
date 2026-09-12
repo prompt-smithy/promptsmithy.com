@@ -253,9 +253,9 @@ p {
   min-height: 88px;
   padding: 16px;
   display: grid;
-  grid-template-columns: minmax(180px, 0.8fr) minmax(260px, 1.2fr) auto;
+  grid-template-columns: 30% 43% 27%;
   align-items: center;
-  gap: 28px;
+  gap: 0;
   transition: background-color 180ms ease;
 }
 
@@ -291,6 +291,7 @@ p {
 
 .tool-description {
   margin: 0;
+  padding-left: 16px;
   color: var(--muted);
   line-height: 1.55;
 }
@@ -324,6 +325,11 @@ p {
   place-items: center;
   font-size: 1rem;
   transition: transform 220ms ease, background-color 180ms ease, color 180ms ease;
+}
+
+.tool-toggle .chevron {
+  margin-right: 16px;
+  justify-self: end;
 }
 
 [aria-expanded="true"] > .chevron,
@@ -367,11 +373,11 @@ p {
 
 .platform-toggle {
   min-height: 66px;
-  padding: 14px 16px;
+  padding: 14px 0;
   display: grid;
-  grid-template-columns: minmax(110px, 0.4fr) 1fr auto;
+  grid-template-columns: 30% 43% 27%;
   align-items: center;
-  gap: 20px;
+  gap: 0;
 }
 
 .platform-toggle:hover,
@@ -380,11 +386,13 @@ p {
 }
 
 .platform-name {
+  padding-left: 16px;
   font-weight: 700;
 }
 
 .badge {
   width: fit-content;
+  margin-left: 16px;
   padding: 5px 8px;
   color: var(--muted);
   border: 1px solid var(--line);
@@ -393,6 +401,8 @@ p {
 .platform-toggle .chevron {
   width: 28px;
   height: 28px;
+  margin-right: 16px;
+  justify-self: end;
   font-size: 0.78rem;
 }
 
@@ -403,6 +413,7 @@ p {
 table {
   width: 100%;
   min-width: 720px;
+  table-layout: fixed;
   border-collapse: collapse;
   background: var(--white);
 }
@@ -516,6 +527,7 @@ footer {
   .tool-description {
     grid-column: 1 / -1;
     grid-row: 2;
+    padding-left: 0;
     font-size: 0.85rem;
     line-height: 1.35;
   }
@@ -544,6 +556,7 @@ footer {
   .tool-toggle > .chevron {
     grid-column: 2;
     grid-row: 1;
+    margin-right: 0;
   }
 
   .tool-body-inner {
@@ -551,18 +564,25 @@ footer {
   }
 
   .platform-toggle {
+    padding: 14px 16px;
     grid-template-columns: 1fr auto;
     gap: 8px;
+  }
+
+  .platform-name {
+    padding-left: 0;
   }
 
   .badge {
     grid-column: 1;
     grid-row: 2;
+    margin-left: 0;
   }
 
   .platform-toggle .chevron {
     grid-column: 2;
     grid-row: 1 / 3;
+    margin-right: 0;
   }
 
   .platform-repo-link {
