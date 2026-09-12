@@ -25,7 +25,7 @@ const directoryData = {
       id: "Amber",
       name: "Amber",
       version: "v1",
-      description: "A lightweight Windows tray app for controlling display brightness and color temperature, with multi-monitor support and automatic day/night scheduling.",
+      description: "A lightweight app for controlling display brightness and color temperature, with multi-monitor support and automatic day/night scheduling.",
       platforms: [
         {
           platformName: "Windows",
@@ -61,12 +61,12 @@ const directoryData = {
         {
           platformName: "macOS",
           badge: "Apple Silicon / Intel",
-          repoUrl: "https://github.com/username/display-master-macos",
+          repoUrl: "https://github.com/prompt-smithy/amber-macos",
           packages: [
             {
               type: "macOS Universal DMG",
               systemRequirements: "macOS 12 Monterey or later (Apple Silicon and Intel)",
-              downloadUrl: "https://github.com/username/display-master/releases/download/v1.0.0/DisplayMaster.dmg",
+              downloadUrl: "https://github.com/prompt-smithy/amber-macos/releases/download/v1/Amber.dmg",
               linkText: "Download .dmg"
             }
           ]
