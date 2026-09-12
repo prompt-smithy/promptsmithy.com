@@ -64,6 +64,10 @@ Open `index.html` directly in a browser. No dependency installation or local ser
 
 Rebuild this file after changing `index.html`, `style.css`, or `app.js` so the release includes the latest configuration.
 
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass; .\scripts\build.ps1
+```
+
 ## Deploy to Cloudflare Pages
 
 1. Create a Cloudflare Pages project connected to this repository.
