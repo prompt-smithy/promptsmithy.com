@@ -24,7 +24,7 @@ const directoryData = {
     {
       id: "Night Mode Controller",
       name: "Night Mode Controller",
-      version: "v3",
+      version: "v3.1",
       description: "A lightweight app for controlling display brightness and color temperature, with multi-monitor support and automatic day/night scheduling.",
       platforms: [
         {
@@ -35,13 +35,13 @@ const directoryData = {
             {
               type: "Installer for Windows",
               systemRequirements: "Windows 10 or 11; .NET Framework 4.8",
-              downloadUrl: "https://github.com/prompt-smithy/Night_Mode_Controller-Windows/releases/download/v3/NightModeController.exe",
+              downloadUrl: "https://github.com/prompt-smithy/Night_Mode_Controller-Windows/releases/download/v3.1/NightModeController.exe",
               linkText: "Download Installer (.exe)"
             },
             {
               type: "Portable Windows Executable",
               systemRequirements: "Windows 10 or 11; .NET Framework 4.8",
-              downloadUrl: "https://github.com/prompt-smithy/Night_Mode_Controller-Windows/releases/download/v3_p/NightModeController.exe",
+              downloadUrl: "https://github.com/prompt-smithy/Night_Mode_Controller-Windows/releases/download/v3.1_p/NightModeController.exe",
               linkText: "Download Portable (.exe)"
             }
           ]
