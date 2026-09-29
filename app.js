@@ -24,7 +24,7 @@ const directoryData = {
     {
       id: "Amber",
       name: "Amber",
-      version: "v2",
+      version: "v2.1",
       description: "A lightweight app for controlling display brightness and color temperature, with multi-monitor support and automatic day/night scheduling.",
       platforms: [
         {
@@ -35,13 +35,13 @@ const directoryData = {
             {
               type: "Installer for Windows",
               systemRequirements: "Windows 10 or 11; .NET Framework 4.8",
-              downloadUrl: "https://github.com/prompt-smithy/Amber/releases/download/v2/Amber.exe",
+              downloadUrl: "https://github.com/prompt-smithy/Amber/releases/download/v2.1/Amber.exe",
               linkText: "Download Installer (.exe)"
             },
             {
               type: "Portable Windows Executable",
               systemRequirements: "Windows 10 or 11; .NET Framework 4.8",
-              downloadUrl: "https://github.com/prompt-smithy/Amber/releases/download/v2/Amber_Portable.exe",
+              downloadUrl: "https://github.com/prompt-smithy/Amber/releases/download/v2.1/Amber_Portable.exe",
               linkText: "Download Portable (.exe)"
             }
           ]
