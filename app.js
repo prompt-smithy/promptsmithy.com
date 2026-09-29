@@ -24,37 +24,25 @@ const directoryData = {
     {
       id: "Amber",
       name: "Amber",
-      version: "v1",
+      version: "v2",
       description: "A lightweight app for controlling display brightness and color temperature, with multi-monitor support and automatic day/night scheduling.",
       platforms: [
         {
           platformName: "Windows",
           badge: "Win x64 / ARM64",
-          repoUrl: "https://github.com/prompt-smithy/amber",
+          repoUrl: "https://github.com/prompt-smithy/Amber-Windows",
           packages: [
             {
               type: "Installer for Windows",
-              systemRequirements: "Windows 10 or 11 (64-bit); no separate .NET installation required",
-              downloadUrl: "https://github.com/prompt-smithy/Amber/releases/download/v1/Amber_Installer.exe",
+              systemRequirements: "Windows 10 or 11; .NET Framework 4.8",
+              downloadUrl: "https://github.com/prompt-smithy/Amber/releases/download/v2/Amber.exe",
               linkText: "Download Installer (.exe)"
             },
             {
-              type: "Installer for Windows with .NET 10",
-              systemRequirements: "Windows 10/11 (64-bit), requires .NET 10 Desktop Runtime",
-              downloadUrl: "https://github.com/prompt-smithy/Amber/releases/download/v1/Amber_Installer.For.systems.with.net.10.exe",
-              linkText: "Download Installer for systems with .NET 10 (.exe)"
-            },
-            {
               type: "Portable Windows Executable",
-              systemRequirements: "Windows 10/11 (64-bit), no installation needed, self-contained",
-              downloadUrl: "https://github.com/prompt-smithy/Amber/releases/download/v1/Amber_Portable.exe",
+              systemRequirements: "Windows 10 or 11; .NET Framework 4.8",
+              downloadUrl: "https://github.com/prompt-smithy/Amber/releases/download/v2/Amber_Portable.exe",
               linkText: "Download Portable (.exe)"
-            },
-            {
-              type: "Portable Windows Executable for system with .NET",
-              systemRequirements: "Windows 10/11 (64-bit), requires .NET 10 Runtime",
-              downloadUrl: "https://github.com/prompt-smithy/Amber/releases/download/v1/Amber_Portable.For.systems.with.net.10.exe",
-              linkText: "Download Portable for systems with .NET 10 (.exe)"
             }
           ]
         },
