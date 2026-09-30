@@ -24,7 +24,6 @@ const directoryData = {
     {
       id: "Night Mode Controller",
       name: "Night Mode Controller",
-      version: "v3.1",
       description: "A lightweight app for controlling display brightness and color temperature, with multi-monitor support and automatic day/night scheduling.",
       platforms: [
         {
@@ -48,13 +47,13 @@ const directoryData = {
         },
         {
           platformName: "macOS",
-          badge: "Apple Silicon / Intel",
-          repoUrl: "https://github.com/prompt-smithy/amber-macos",
+          badge: "Apple Silicon",
+          repoUrl: "https://github.com/prompt-smithy/Night_Mode_Controller-MacOS",
           packages: [
             {
               type: "macOS Universal DMG",
-              systemRequirements: "macOS 12 Monterey or later (Apple Silicon and Intel)",
-              downloadUrl: "https://github.com/prompt-smithy/amber-macos/releases/download/v1/Amber.dmg",
+              systemRequirements: "macOS 14 or later (Apple Silicon)",
+              downloadUrl: "https://github.com/prompt-smithy/Night_Mode_Controller-MacOS/releases/download/v2/Night-Mode-Controller-macOS-arm64.dmg",
               linkText: "Download .dmg"
             }
           ]
